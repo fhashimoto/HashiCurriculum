@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Cabecalho from './Corpo/cabecalho.js';
 
 class App extends Component {
   render() {
@@ -8,21 +9,6 @@ class App extends Component {
         <Cabecalho nome="Felipe Hashimoto"/>
       </div>
     );
-  }
-}
-
-class Cabecalho extends Component {
-
-  constructor(props){
-    super(props);
-  }
-
-  render(){
-    return(
-      <div>
-        <h1 className="nome">{this.props.nome}</h1>
-      </div>
-    )
   }
 }
 
