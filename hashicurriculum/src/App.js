@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Cabecalho nome="Felipe Hashimoto"/>
+        <Cabecalho nome="Felipe Hashimoto" endereco="Rua Bela Cintra, 201 - São Paulo, SP"/>
       </div>
     );
   }

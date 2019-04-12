@@ -9,7 +9,9 @@ class Cabecalho extends Component {
     render(){
       return(
         <div>
-          <h1 className="nome">{this.props.nome}</h1>
+          <a className="nome">{this.props.nome}<br/></a>
+          <a className="endereco">{this.props.endereco}</a>
+          <a className=""></a>
         </div>
       )
     }
